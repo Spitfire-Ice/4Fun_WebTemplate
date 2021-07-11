@@ -4,7 +4,10 @@
   "description": "web template j4fun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Spitfire-Ice/4Fun_WebTemplate/issues"
   },
-  "homepage": "https://github.com/Spitfire-Ice/4Fun_WebTemplate#readme"
+  "homepage": "https://github.com/Spitfire-Ice/4Fun_WebTemplate#readme",
+  "devDependencies": {
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
