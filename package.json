@@ -1,0 +1,19 @@
+{
+  "name": "4fun_webtemplate",
+  "version": "1.0.0",
+  "description": "web template j4fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spitfire-Ice/4Fun_WebTemplate.git"
+  },
+  "author": "Spitfire-Ice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spitfire-Ice/4Fun_WebTemplate/issues"
+  },
+  "homepage": "https://github.com/Spitfire-Ice/4Fun_WebTemplate#readme"
+}
