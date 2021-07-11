@@ -4,4 +4,9 @@ const foo = {
   sheep: 34,
 };
 
-console.log(foo);
+const bar = {
+  Whiskey: "Jack",
+  Rom: "Morgan",
+};
+
+console.log(foo,bar);
