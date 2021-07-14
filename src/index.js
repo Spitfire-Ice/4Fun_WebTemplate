@@ -1,3 +1,5 @@
+import "./assets/styles/index.css";
+
 const foo = {
   water: 4,
   fire: 2,
