@@ -1,14 +1,25 @@
-import "./assets/styles/index.scss";
+import React, { StrictMode } from 'react'
+import { render } from 'react-dom'
+// components
+import { App } from './App'
+// styles
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-const foo = {
-  water: 4,
-  fire: 2,
-  sheep: 34,
-};
+console.log(process.env.SECRET)
 
-const bar = {
-  Whiskey: "Jack",
-  Rom: "Morgan",
-};
+import logo from './assets/logo.png'
 
-console.log(foo,bar);
+const imgStyles = {
+  width: '100px',
+  display: 'block',
+  margin: '0.5rem auto 0'
+}
+
+const rootEl = document.getElementById('root')
+render(
+  <StrictMode>
+    <img src={logo} alt='#' style={imgStyles} />
+    <App />
+  </StrictMode>,
+  rootEl
+)
